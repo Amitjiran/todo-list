@@ -1,0 +1,46 @@
+.footer{
+    margin: 50px;
+}
+
+body{
+       display: flex;
+       flex-direction: column;   /* we changed main axis to column*/
+     align-items: center; 
+    justify-content: center;
+    
+}
+
+.todo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+
+.scroll{
+    height: 15rem;
+    scrollbar-width: thin;
+}
+
+.ul{
+    overflow: scroll;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.disabled{
+
+    display: flex;
+    text-decoration:line-through;  /* for line through text*/
+}
+
